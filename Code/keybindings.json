@@ -1,0 +1,26 @@
+[
+    {
+        "key": "alt+right",
+        "command": "cursorWordPartRight"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorWordPartRightSelect"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordPartLeft"
+    },
+    {
+        "key": "alt+delete",
+        "command": "deleteWordPartRight"
+    }
+]

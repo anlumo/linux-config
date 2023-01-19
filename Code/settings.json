@@ -1,0 +1,67 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 160,
+    "editor.wrappingIndent": "indent",
+    "workbench.quickOpen.preserveInput": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "rust-client.channel": "nightly",
+    "rust.clippy_preference": "on",
+    "rust.all_targets": false,
+    "rust-analyzer.cargo-watch.command": "clippy",
+    "gitlab.instanceUrl": "https://git.dungeonfog.com",
+    "gitlab.enableExperimentalFeatures": true,
+    "workbench.colorTheme": "SynthWave '84",
+    "rust-analyzer.checkOnSave.allTargets": false,
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "lldb.evaluationTimeout": 20,
+    "debug.toolBarLocation": "docked",
+    "filterlines.lineNumbers": true,
+    "zeplin.preferredApplicationType": "App",
+    "files.autoSave": "off",
+    "codespaces.accountProvider": "Microsoft",
+    "liveshare.nameTagVisibility": "Never",
+    "files.trimTrailingWhitespace": true,
+    "rust-analyzer.diagnostics.enable": false,
+    "settingsSync.keybindingsPerPlatform": false,
+    "git.autofetch": true,
+    "clang-format.fallbackStyle": "WebKit",
+    "debug.onTaskErrors": "abort",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "git.confirmSync": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "cmake.configureOnOpen": false,
+}
