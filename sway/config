@@ -48,6 +48,11 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 output "Unknown RTK UHD HDR 0x00000000" resolution 3840x2160@60Hz
 output "Unknown RTK UHD HDR 0x00000000" scale 2.0
 output "Unknown RTK UHD HDR 0x00000000" pos 0,0
+output "Goldstar Company Ltd LG ULTRAWIDE 0x00007F59" pos 1920,0
+output "Acer Technologies K222HQL T0EEE0058581" pos 4480,0
+
+#output "Dell Inc. DELL U2415 7MT0188T0RAU" pos 0,0
+
 
 ### Idle configuration
 #
