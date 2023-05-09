@@ -101,6 +101,7 @@ exec swayidle -w \
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+Delete exec swaynag -t warning -m 'You pressed the shutdown shortcut. Do you really want to shut down the computer?' -B 'Yes, shutdown' 'sudo /sbin/shutdown -h now'
 #
 # Moving around:
 #
