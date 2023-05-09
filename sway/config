@@ -218,7 +218,7 @@ bindsym $mod+Shift+m exec qpwgraph
 bar {
     position top
 
-    status_command exec ~/.config/sway/status.sh
+    status_command ~/.config/sway/anlumo-bar # https://github.com/anlumo/anlumo-bar
 
     colors {
         statusline #ffffff
