@@ -209,6 +209,7 @@ bindsym $mod+m exec pavucontrol
 bindsym $mod+Shift+s exec $screenclip
 bindsym $mod+Shift+Alt+s exec $screenshot
 bindsym $mod+Shift+n exec nautilus
+bindsym $mod+Shift+m exec qpwgraph
 
 #
 # Status Bar:
