@@ -226,7 +226,11 @@ bar {
     }
 }
 
+# xdg-desktop-portal
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
 include /etc/sway/config.d/*
 
 # autostart
+exec /usr/bin/lxpolkit &
 exec sleep 1 && swaymsg "workspace 2" && swaymsg "exec snap run element-desktop" && swaymsg "exec snap run discord" && swaymsg "layout tabbed"
